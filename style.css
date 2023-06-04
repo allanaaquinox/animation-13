@@ -1,0 +1,98 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: black;
+}
+
+.qua1 {
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: q1;
+    animation-delay: 0.5s;
+}
+
+.qua2 {
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: q2;
+    animation-delay: 2.5s;
+}
+
+.qua3 {
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: q3;
+    animation-delay: 4.5s;
+}
+
+@keyframes q1 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+ 
+    75%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes q2 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+ 
+    75%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes q3 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+ 
+    75%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
